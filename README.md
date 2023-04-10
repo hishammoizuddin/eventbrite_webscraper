@@ -11,6 +11,7 @@ Make sure you have Python 3.x installed on your system. You can download it from
 1. Clone this repository to your local machine
 
 `git clone https://github.com/<your_github_username>/eventbrite_webscraper.git`
+
 Replace `<your_github_username>` with your actual GitHub username.
 
 2. Change to the `eventbrite_webscraper` directory:
