@@ -1,7 +1,6 @@
 """
 Eventbrite Webscraper Script
 Author: Mohammed Hisham Moizuddin
-Date: 2023-04-09
 
 This script scrapes information about upcoming weekend events in a specified U.S. state from Eventbrite,
 prints it on the console, and stores it in an Excel sheet.
@@ -22,7 +21,8 @@ def main():
 
     # Prompt user for the U.S. state's name
     print()
-    user_city = input("Please enter the U.S. State's name (all lowercase and no spaces) : ")
+    user_input = input("Please enter the U.S. State's name: ")
+    user_city = user_input.lower().replace(' ', '')
     assigned_url = "https://www.eventbrite.com/d/united-states--"+user_city+"/events--this-weekend/"
 
     # Get the current time as the last fetch time
