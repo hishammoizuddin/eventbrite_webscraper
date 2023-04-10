@@ -1,6 +1,6 @@
 # Eventbrite Webscraper
 
-This Python script scrapes information about upcoming weekend events in a specified city from Eventbrite, prints the information to the console, and stores the data in an Excel file.
+This is an automated Python script (utilizing BeautifulSoup, Requests, and Openpyxl python libraries) to efficiently scrape and compile data on upcoming weekend events from Eventbrite for any specified U.S. state. The script provides real-time event information, including event name, location, and time, displayed in the console and stored in a well-structured Excel sheet with regular updates every 12 hours.
 
 ## Prerequisites
 
