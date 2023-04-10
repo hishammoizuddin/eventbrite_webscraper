@@ -10,11 +10,16 @@ Make sure you have Python 3.x installed on your system. You can download it from
 
 1. Clone this repository to your local machine
 
+`git clone https://github.com/<your_github_username>/eventbrite_webscraper.git`
+Replace `<your_github_username>` with your actual GitHub username.
+
 2. Change to the `eventbrite_webscraper` directory:
-cd eventbrite_webscraper
+
+`cd eventbrite_webscraper`
 
 3. Install the required packages using `pip`:
-pip install requests beautifulsoup4 openpyxl
+
+`pip install requests beautifulsoup4 openpyxl`
 
 
 ## Usage
@@ -25,7 +30,9 @@ python eventbrite_webscraper.py
 
 The script will prompt you to enter a city name (in lowercase and without spaces). After you provide the city name, the script will start scraping the Eventbrite website for upcoming weekend events in the specified city. It will print the event information on the console and store the data in an Excel file named `events_in_<city>.xlsx`.
 
-The scraper will continue to run every 12 hours to fetch updated event information.
+
+
+### The scraper will continue to run every 12 hours to fetch updated event information.
 
 ## Contributing
 
