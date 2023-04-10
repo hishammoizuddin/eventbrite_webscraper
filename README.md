@@ -26,7 +26,8 @@ Replace `<your_github_username>` with your actual GitHub username.
 ## Usage
 
 Run the script using Python:
-python eventbrite_webscraper.py
+
+`python eventbrite_webscraper.py`
 
 
 The script will prompt you to enter a city name (in lowercase and without spaces). After you provide the city name, the script will start scraping the Eventbrite website for upcoming weekend events in the specified city. It will print the event information on the console and store the data in an Excel file named `events_in_<city>.xlsx`.
