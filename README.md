@@ -34,7 +34,7 @@ The script will prompt you to enter a city name (in lowercase and without spaces
 
 <img src="https://user-images.githubusercontent.com/78191578/230825563-f10053c6-1fca-41a9-a352-d0859ea7c265.gif" width=50% height=50%>
 
-### The scraper will continue to run every 12 hours to fetch updated event information.
+#### The scraper will continue to run every 12 hours to fetch updated event information.
 
 ## Contributing
 
