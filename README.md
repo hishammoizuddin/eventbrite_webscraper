@@ -30,7 +30,7 @@ Run the script using Python:
 `python eventbrite_webscraper.py`
 
 
-The script will prompt you to enter a city name (in lowercase and without spaces). After you provide the city name, the script will start scraping the Eventbrite website for upcoming weekend events in the specified city. It will print the event information on the console and store the data in an Excel file named `events_in_<city>.xlsx`.
+The script will prompt you to enter a city name. After you provide the city name, the script will start scraping the Eventbrite website for upcoming weekend events in the specified city. It will print the event information on the console and store the data in an Excel file named `events_in_<city>.xlsx`.
 
 <img src="https://user-images.githubusercontent.com/78191578/230825563-f10053c6-1fca-41a9-a352-d0859ea7c265.gif" width=60% height=60%>
 
